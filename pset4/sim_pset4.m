@@ -13,7 +13,7 @@ initial_conditions_pset4;
 
 % Numerical integration 
 % Settings
-orb_rev = 100;
+orb_rev = 15;
 stepSize = T/1000;
 tspan = 0:stepSize:T*orb_rev;
 options = odeset('RelTol',1e-12,'AbsTol',1e-12); % tolerances
